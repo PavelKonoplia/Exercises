@@ -1,0 +1,44 @@
+
+.item-list  {
+	background-color: rgb(247, 247, 247);
+	border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+	border-style: hidden hidden solid hidden;
+	height: 40px;        
+	vertical-align: middle;   
+}
+
+ul.pager  {       
+	vertical-align: middle;
+}
+  
+ul.pager li {	
+	display: inline-block;   
+	font-size: 18px;
+	display: table-cell;
+	width: 50px;
+	height: 40px;
+	text-align: center;        
+	vertical-align: middle; 
+}
+
+ul.pager li * {	
+    text-decoration: none;	
+}
+
+ul.pager li.pager-item  * {	
+	color: #863630;
+}
+
+li.pager-item,li.pager-next  {  
+	color: #863630;	
+}
+
+
+li.pager-current {
+	padding-top: 5px;
+	height:35px !important;
+	color: black;
+	background-color:#cdcdcd;
+	border-bottom: 5px solid black;
+	border-style: hidden hidden solid hidden;
+}
